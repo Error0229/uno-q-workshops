@@ -1,4 +1,4 @@
-# QC UNO Q Workshop 1: Haptic Dial
+# QC UNO Q Workshop 101: Haptic Dial
 
 As part of this workshop, attendees will build a physical interface with the Arduino UNO Q and Modulinos.
 

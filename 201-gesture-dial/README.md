@@ -1,4 +1,4 @@
-# QC UNO Q Workshop 2: Gesture Dial
+# QC UNO Q Workshop 201: Gesture Dial
 
 As part of this workshop, attendees will turn the `101-Haptic Dial` into a personal edge-AI interface that learns physical gestures.
 
@@ -12,7 +12,7 @@ The app interacts in the following manner:
 All inference is local and does not depend on internet connectivity!
 
 > [!IMPORTANT]
-> This is a 201-level workshop. Attendees should already be comfortable running an App Lab project and understand the MCU, MPU, and Bridge roles introduced in `101: Haptic Dial`.
+> This is a `201`-level workshop. Attendees should already be comfortable running an App Lab project and understand the MCU, MPU, and Bridge roles introduced in `101`.
 >
 > Complete the software prerequisites before arriving. Downloading App Lab or board software during the session will cause delays and may prevent you from keeping up with the build.
 
@@ -83,15 +83,15 @@ The capture window lasts 1.4 seconds. If there is not enough movement, the Pixel
 
 Training colors show the current label and progress:
 
-| Color | Meaning |
-| --- | --- |
-| Pink | Record `flick_left` examples |
-| Green | Record `flick_right` examples |
+| Color  | Meaning                                   |
+| ------ | ----------------------------------------- |
+| Pink   | Record `flick_left` examples              |
+| Green  | Record `flick_right` examples             |
 | Purple | Record `wiggle` examples or fit the model |
-| White | Recording is active |
-| Amber | Example or prediction was uncertain |
-| Red | The example could not be processed |
-| Blue | The trained dial is live |
+| White  | Recording is active                       |
+| Amber  | Example or prediction was uncertain       |
+| Red    | The example could not be processed        |
+| Blue   | The trained dial is live                  |
 
 The number of colored Pixels during training shows how many examples for the current label have been accepted.
 

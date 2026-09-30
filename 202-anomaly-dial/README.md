@@ -1,4 +1,4 @@
-# QC UNO Q Workshop 3: Anomaly Dial
+# QC UNO Q Workshop 202: Anomaly Dial
 
 As part of this workshop, attendees will turn the `101-Haptic Dial` into a personal edge-AI interface that learns normal movement and detects anomalies.
 
