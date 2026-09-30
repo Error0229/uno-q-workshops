@@ -8,3 +8,4 @@ This monorepo contains workshop materials for building projects with the Arduino
 | --- | --- | --- | --- |
 | `101: Haptic Dial` | Build a physical dial that controls LEDs and haptic feedback across the UNO Q's MCU and Linux MPU. | UNO Q, Modulino Knob, Pixels, and Vibro | [View content](./101-haptic-dial/) |
 | `201: Gesture Dial` | Train a personal edge-AI dial that recognizes rotation gestures and expresses prediction confidence. | UNO Q, Modulino Knob, Pixels, and Vibro | [View content](./201-gesture-dial/) |
+| `202: Anomaly Dial` | Learn normal dial movement locally and flag unusual speed, duration, or direction changes. | UNO Q, Modulino Knob, Pixels, and Vibro | [View content](./202-anomaly-dial/) |
